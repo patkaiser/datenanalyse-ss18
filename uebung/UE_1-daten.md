@@ -41,9 +41,9 @@ Aufwand: 45min
 
 
 Schritte:
-* Aufgabe aus Liste raus suchen.
-* Überlegen in der Gruppe, welche Metadaten nötig sind um das Datenset zu verstehen.
-* Metadaten als Key-Value Paare in Metadaten-Datei schreiben. Nehmt euch Zeit, dies wirklich gut und ausführlich zu machen. Selbsterklärende Attributnamen beachten.
+* Beispiel-Datensatz aus Liste raus suchen.
+* Überlegt euch in der Gruppe, welche (fiktiven) Metadaten nötig sind um das Datenset zu beschreiben.
+* Metadaten als Key-Value Paare in Metadaten-Datei schreiben. Nehmt euch Zeit, dies wirklich gut und ausführlich zu machen. Selbsterklärende Key-Namen beachten.
 * Validieren der JSON Datei auf [jsonlint](https://jsonlint.com/)
 * Upload der Datei in das GitHub Repository
 
@@ -80,9 +80,11 @@ Ergebnis der Gruppeneinteilung mitsamt dem eigenen User-Account in Spreadsheet e
 
 **metadata.json**
 
-
-Valdierte JSON File mit den Metadaten. Keys auf Englisch, ohne Leerzeichen, alles klein, mit Underscore als Trennzeichen (z. B. `date_created`). Metadaten sollen für Computer genauso wie für Menschen verständlich bzw. nützlich sein.
-
+Valdierte JSON File mit den Metadaten. 
+* Keys auf Englisch, ohne Leerzeichen, alles klein, mit Underscore als Trennzeichen (z. B. `"date_created"`). 
+* Metadaten sollen für Computer genauso wie für Menschen verständlich bzw. nützlich sein.
+* jedes Key-Value Pair wird mit einem Beistrich abgeschlossen, ausser das letzte.
+* JSON Dictionaries (Key-Value Pairs) werden mit einer geschwungenden Klammer gestartet und beendet.
 
 **aufgabe-1_bericht_NACHNAME.md**
 
